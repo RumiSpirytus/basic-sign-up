@@ -1,0 +1,85 @@
+body {
+    background-color: #97b9a3;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .signup-box {
+    width: 600px;
+    height: 820px;
+    margin: auto;
+    background-color: rgb(252, 223, 228);
+    border-radius: 3px;
+    margin-top: 60px;
+  }
+  
+  h1 {
+    color: rgb(182, 18, 182);
+    font-size: 45px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  h4 {
+    color:rgb(151, 19, 151);
+    margin-top: 10px;
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  form {
+    width: 400px;
+    margin: auto;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .title{
+    font-size: 20px;
+    color: rgb(96, 96, 173);
+  }
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    color: rgb(52, 40, 40);
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #39c370;
+    color: white;
+    font-size: 18px;
+    width: 40%; 
+    margin-left :30% ;
+    margin-right: 30%;
+    cursor: pointer;
+  }
+  input[type="button"]:hover{
+    color: rebeccapurple;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: rgb(72, 74, 142);
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    color: blueviolet;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  
