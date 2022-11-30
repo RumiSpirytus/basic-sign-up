@@ -1,85 +1,70 @@
-body {
-    background-color: #97b9a3;
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .signup-box {
-    width: 600px;
-    height: 820px;
-    margin: auto;
-    background-color: rgb(252, 223, 228);
-    border-radius: 3px;
-    margin-top: 60px;
-  }
-  
-  h1 {
-    color: rgb(182, 18, 182);
-    font-size: 45px;
-    text-align: center;
-    padding-top: 15px;
-  }
-  
-  h4 {
-    color:rgb(151, 19, 151);
-    margin-top: 10px;
-    font-size: 35px;
-    text-align: center;
-  }
-  
-  form {
-    width: 400px;
-    margin: auto;
-  }
-  
-  form label {
-    display: flex;
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  .title{
-    font-size: 20px;
-    color: rgb(96, 96, 173);
-  }
-  form input {
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+.header >img{
+  height: 130px;
+}
+
+.bodyy{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-word{
     width: 100%;
-    padding: 7px;
-    border: none;
-    border: 1px solid gray;
-    border-radius: 6px;
-    outline: none;
-    color: rgb(52, 40, 40);
-  }
-  input[type="button"] {
-    width: 320px;
-    height: 35px;
-    margin-top: 20px;
-    border: none;
-    background-color: #39c370;
-    color: white;
-    font-size: 18px;
-    width: 40%; 
-    margin-left :30% ;
-    margin-right: 30%;
-    cursor: pointer;
-  }
-  input[type="button"]:hover{
-    color: rebeccapurple;
-  }
-  p {
     text-align: center;
-    padding-top: 20px;
-    font-size: 15px;
-  }
-  .para-2 {
-    text-align: center;
-    color: rgb(72, 74, 142);
-    font-size: 15px;
-    margin-top: -10px;
-  }
-  .para-2 a {
-    color: blueviolet;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  
+    margin-bottom: px;
+    color: rgb(67, 63, 63);
+}
+.small-word{
+  text-align: center;
+  margin-top: 0px;
+  color: rgb(109, 100, 100);
+}
+.create-account{
+  background-color: green;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+.name{
+  color: rgb(110, 103, 103);
+  margin-bottom: -20px;
+  font-size: 15px;
+}
+.input{
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: none;
+  text-align: center;
+  outline: transparent;
+  width: 100%;
+  margin-bottom: 10px;
+  border-color: rgb(191, 188, 188);
+}
+.create-button{
+  background-color: green;
+  font-size: 25px;
+  color: white;
+  border:none;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 20px;
+}
